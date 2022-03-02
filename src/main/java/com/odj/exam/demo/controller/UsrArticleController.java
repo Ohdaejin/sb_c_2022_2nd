@@ -29,8 +29,8 @@ public class UsrArticleController {
 			return ResultData.from("F-2", "body(을)를 입력해주세요.");
 		}
 
-		ResultData writeArticleRd = articleService.writeArticle(title, body);
-		int id = (int) writeArticleRd.getData1();
+		ResultData<Integer> writeArticleRd = articleService.writeArticle(title, body);
+		int id = writeArticleRd.getData1();
 
 		Article article = articleService.getArticle(id);
 
@@ -41,9 +41,9 @@ public class UsrArticleController {
 	@ResponseBody
 	public ResultData getArticles() {
 		List<Article> articles = articleService.getArticles();
-
-		return ResultData.from("S-1", "게시물 리스트 입니다.", articles);	
-		}
+		
+		return ResultData.from("S-1", "게시물 리스트 입니다.", articles);
+	}
 
 	@RequestMapping("/usr/article/getArticle")
 	@ResponseBody
