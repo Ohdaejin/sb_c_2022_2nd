@@ -1,5 +1,7 @@
 package com.odj.exam.demo.util;
 
+import java.net.URLEncoder;
+
 public class Ut {
 	public static boolean empty(Object obj) {
 		if (obj == null) {
@@ -18,6 +20,7 @@ public class Ut {
 	public static String f(String format, Object... args) {
 		return String.format(format, args);
 	}
+
 	public static String jsHistoryBack(String msg) {
 		if (msg == null) {
 			msg = "";
@@ -38,7 +41,7 @@ public class Ut {
 		if (msg == null) {
 			msg = "";
 		}
-
+		
 		if (uri == null) {
 			uri = "";
 		}
@@ -53,5 +56,13 @@ public class Ut {
 				</script>
 				""", msg, uri);
 	}
+	
+	 public static String getUriEncoded(String str) {
+	        try {
+	            return URLEncoder.encode(str, "UTF-8");
+	        } catch (Exception e) {
+	            return str;
+	        }
+	    }
 
 }
