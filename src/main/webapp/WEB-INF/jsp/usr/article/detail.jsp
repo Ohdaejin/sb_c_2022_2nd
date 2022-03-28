@@ -78,7 +78,7 @@
                 <c:if test="${actorCanMakeReactionPoint}">
                   <button class="btn btn-xs btn-primary">
                     좋아요
-                    👍🏼
+                    👍
                   </button>
                   <span>&nbsp;</span>
                   <button class="btn btn-xs btn-secondary">
