@@ -6,19 +6,13 @@
 	<insert id="writeArticle">
 		INSERT INTO article
 		SET regDate = NOW(),
-		updateDate = NOW(),
+		updateDate =
+		NOW(),
 		memberId = #{memberId},
 		title = #{title},
 		`body` = #{body}
 	</insert>
 
-	<select id="getArticle" resultType="Article">
-		SELECT *
-		FROM article
-		WHERE 1
-		AND id = #{id}
-	</select>
-	
 	<select id="getLastInsertId" resultType="int">
 		SELECT LAST_INSERT_ID()
 	</select>
