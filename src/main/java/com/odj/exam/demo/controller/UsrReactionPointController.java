@@ -32,6 +32,7 @@ public class UsrReactionPointController {
 		return rq.jsReplace("좋아요를 하셨습니다.", replaceUri);
 	}
 
+	
 	@RequestMapping("/usr/reactionPoint/doBadReaction")
 	@ResponseBody
 	String doBadReaction(String relTypeCode, int relId, String replaceUri) {
