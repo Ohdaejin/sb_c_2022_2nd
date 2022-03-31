@@ -28,7 +28,7 @@
   <header>
     <div class="h-20 flex container mx-auto">
       <a href="/" class="flex items-center px-3">
-        <span>파비콘이 안나옴</span>
+        <span>데브 스페셜</span>
       </a>
 
       <div class="flex-grow"></div>
@@ -68,7 +68,7 @@
           </a>
         </li>
         <li>
-          <a class="h-full flex px-3 items-center hover:underline" href="/usr/member/doLogout">
+          <a class="h-full flex px-3 items-center hover:underline" href="${rq.logoutUri}">
             <span>로그아웃</span>
           </a>
         </li>
