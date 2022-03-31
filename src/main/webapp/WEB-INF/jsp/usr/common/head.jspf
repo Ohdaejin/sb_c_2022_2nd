@@ -28,7 +28,7 @@
   <header>
     <div class="h-20 flex container mx-auto">
       <a href="/" class="flex items-center px-3">
-        <span>파비콘이 안되는 게시판</span>
+        <span>데브 스페셜</span>
       </a>
 
       <div class="flex-grow"></div>
@@ -58,6 +58,11 @@
         <li>
           <a class="h-full flex px-3 items-center hover:underline" href="${rq.loginUri}">
             <span>로그인</span>
+          </a>
+        </li>
+        <li>
+          <a class="h-full flex px-3 items-center hover:underline" href="${rq.joinUri}">
+            <span>회원가입</span>
           </a>
         </li>
         </c:if>
