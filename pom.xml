@@ -89,8 +89,8 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>https://site9.public.0zing.com/manager/text</url>
-					<server>site9.public.0zing.com__manager_text</server>
+					<url>https://sp.public.0zing.com/manager/text</url>
+					<server>sp.public.0zing.com__manager_text</server>
 					<path>/ROOT##4</path>
 				</configuration>
 			</plugin>
