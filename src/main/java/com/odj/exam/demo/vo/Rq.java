@@ -177,7 +177,7 @@ public class Rq {
 		// 로그인 후 다시 돌아가면 안되는 페이지 URL 들을 적으시면 됩니다.
 		switch (requestUri) {
 		case "/usr/member/login":
-		case "/usr/member/join":
+		case "/usr/member/join":g
 		case "/usr/member/findLoginId":
 		case "/usr/member/findLoginPw":
 			return Ut.getUriEncoded(Ut.getStrAttr(paramMap, "afterLoginUri", ""));
