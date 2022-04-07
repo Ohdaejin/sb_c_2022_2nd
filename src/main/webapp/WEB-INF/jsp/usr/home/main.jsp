@@ -5,8 +5,15 @@
 <%@ include file="../common/head.jspf"%>
 
 <section class="mt-5">
-  <div class="container mx-auto px-3">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae eaque tenetur quis aut quidem sed doloribus? Quasi illo laborum labore iste optio sit dolorum vel nemo aliquid rerum excepturi tempore.
+  <div class="container mx-auto">
+    <div class="text-center" style="font-size: 2rem;">
+      <center>
+        <img style="margin-top:12rem;" src="https://evan-moon.github.io/static/21e0825bda72bb61f13b72c1ffbcadd0/14b42/thumbnail.jpg" />
+      </center>
+      <div class="mt-11">
+        <span>스프링관련 자료들을 같이 공부해 봅시당</span>
+      </div>
+    </div>
   </div>
 </section>
 
