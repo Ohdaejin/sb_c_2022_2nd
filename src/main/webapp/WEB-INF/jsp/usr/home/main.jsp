@@ -11,7 +11,7 @@
         <img style="margin-top:12rem;" src="https://evan-moon.github.io/static/21e0825bda72bb61f13b72c1ffbcadd0/14b42/thumbnail.jpg" />
       </center>
       <div class="mt-11">
-        <span>스프링관련 자료들을 같이 공부해 봅시당</span>
+        <span>스프링관련 자료들을 같이 공부해 봅시다</span>
       </div>
     </div>
   </div>
