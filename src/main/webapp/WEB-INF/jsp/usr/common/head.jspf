@@ -56,7 +56,7 @@ Theme__init();
   <header>
     <div class="h-20 flex container mx-auto">
       <a href="/" class="flex items-center px-3">
-        <span>데브 스페셜</span>
+        <span>스프링링</span>
       </a>
 
       <div class="flex-grow"></div>
