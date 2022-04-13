@@ -8,18 +8,21 @@
 
 <!-- 제이쿼리 불러오기 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 <script>
 function Theme__toggle() {
   const theme = localStorage.getItem("theme") ?? "light";
 
   if ( theme == 'light' ) {
     localStorage.setItem("theme", "dark");
-    Theme__applyTo('dark');
+    //Theme__applyTo('dark');
   }
   else {
     localStorage.setItem("theme", "light");
-    Theme__applyTo('light');
+    //Theme__applyTo('light');
   }
+
+  location.reload();
 }
 
 function Theme__applyTo(themeName) {
@@ -53,7 +56,7 @@ Theme__init();
   <header>
     <div class="h-20 flex container mx-auto">
       <a href="/" class="flex items-center px-3">
-        <span>스프링링</span>
+        <span>데브 스페셜</span>
       </a>
 
       <div class="flex-grow"></div>
@@ -64,7 +67,7 @@ Theme__init();
             <span>밝게</span>
             <span>어둡게</span>
           </a>
-        </li>      
+        </li>
         <li>
           <a class="h-full flex px-3 items-center hover:underline" href="/">
             <span>홈</span>
