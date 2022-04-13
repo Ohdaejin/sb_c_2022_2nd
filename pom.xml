@@ -91,7 +91,7 @@
 				<configuration>
 					<url>https://sp.public.0zing.com/manager/text</url>
 					<server>sp.public.0zing.com__manager_text</server>
-					<path>/ROOT##6</path>
+					<path>/ROOT##7</path>
 				</configuration>
 			</plugin>
 			<plugin>
