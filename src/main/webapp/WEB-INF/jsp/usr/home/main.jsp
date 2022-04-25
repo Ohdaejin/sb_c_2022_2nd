@@ -12,6 +12,7 @@
       </center>
       <div class="mt-11">
         <span>스프링 자료를 자유롭게 공유하자!</span>
+        <span>Let's share springboot</span>
       </div>
     </div>
   </div>
